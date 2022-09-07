@@ -20,3 +20,15 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #252525;
 }
+
+@media screen and (max-width: 768px) {
+  .sm:hidden {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg:hidden {
+    display: none !important;
+  }
+}
