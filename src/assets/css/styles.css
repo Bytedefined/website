@@ -22,13 +22,13 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .sm:hidden {
+  .hidden-mobile {
     display: none !important;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .lg:hidden {
+  .hidden-desktop {
     display: none !important;
   }
 }
