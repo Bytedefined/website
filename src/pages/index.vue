@@ -5,19 +5,19 @@
         Hello, I'm <span class="text-blues-100">Bytedefined</span>
       </h1>
 
-      <p class="text-gray-300 mt-1 max-w-lg font-medium text-center items-center">
+      <p class="text-gray-300 mt-1 max-w-lg font-medium text-center">
         A Russian/Australian software developer/designer.
       </p>
-      <div class="flex gap-2 mx-auto mt-2 flex-wrap justify-start">
+      <div class="flex gap-2 mx-auto mt-2 flex-wrap justify-start items-center">
         <a href="https://twitter.com/Bytedefined" target="_blank">
           <InteractiveButton
-            class="ml-auto duration-500 shadow-none !bg-blue-600 hover:!bg-blue-500 whitespace-nowrap w-full"
+            class="duration-500 shadow-none !bg-blue-600 hover:!bg-blue-500 whitespace-nowrap w-full"
             text="Follow me on Twitter"
           />
         </a>
         <a href="https://github.com/Bytedefined" target="_blank">
           <InteractiveButton
-              class="ml-auto duration-500 shadow-none !bg-blue-600 hover:!bg-blue-500 whitespace-nowrap w-full"
+              class="duration-500 shadow-none !bg-blue-600 hover:!bg-blue-500 whitespace-nowrap w-full"
               text="Check out my Github"
           />
         </a>
