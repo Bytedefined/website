@@ -8,7 +8,7 @@
       <p class="text-gray-300 mt-1 max-w-lg font-medium text-center">
         A Russian/Australian software developer/designer.
       </p>
-      <div class="flex gap-2 mx-auto mt-2">
+      <div class="flex gap-2 mx-auto mt-2 w-full">
         <a href="https://twitter.com/Bytedefined" target="_blank">
           <InteractiveButton
             class="ml-auto duration-500 shadow-none !bg-blue-600 hover:!bg-blue-500"
