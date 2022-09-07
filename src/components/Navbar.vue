@@ -3,7 +3,7 @@
       <NuxtLink to="/">
         <h1 class="text-2xl text-blues-200 tracking-wider font-semibold">Bytedefined</h1>
       </NuxtLink>
-      <div class="flex gap-2 sm:hidden">
+      <div class="flex gap-2 hidden-mobile">
         <NuxtLink to="/projects">
           <NavbarButton
               rawHtml='<i class="fa-solid fa-diagram-project"></i>'
