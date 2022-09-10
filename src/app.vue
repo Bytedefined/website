@@ -2,11 +2,11 @@
   <div class="flex h-[100vh] max-h-[100vh] flex-col">
     <Banner type="announcement" text="Hello, my personal website is still under-development, but still feel free to check in on it from time-to-time!" />
     <Navbar/>
-    <main class="flex-1 flex items-center justify-center">
+    <div class="flex-1 flex items-center justify-center">
       <NuxtLayout>
         <NuxtPage style="margin-top: 15%" />
       </NuxtLayout>
-    </main>
+    </div>
     <Footer />
   </div>
 </template>
