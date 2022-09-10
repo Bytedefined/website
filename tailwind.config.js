@@ -6,6 +6,9 @@ module.exports = {
     theme: {
         extend: {
             colors: {
+                background: "#0B0E11",
+                sidebar: "#151515",
+                sidebarItem: "#292929",
                 polar: {
                     100: "#141517",
                     200: "#1A1B1E",

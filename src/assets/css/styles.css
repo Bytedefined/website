@@ -15,12 +15,12 @@ body {
     background-repeat: no-repeat;
 }
 
-a {
+a:not(.override) {
     --tw-text-opacity: 1;
     color: rgb(2 102 211 / var(--tw-text-opacity));
 }
 
-a:hover {
+a:hover:not(.override) {
     text-decoration: underline;
 }
 
