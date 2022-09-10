@@ -2,7 +2,7 @@ import {defineNuxtConfig} from "nuxt";
 
 export default defineNuxtConfig({
     srcDir: "src/",
-    buildModules: [
+    modules: [
         "@nuxtjs/pwa",
         "@nuxtjs/robots"
     ],
