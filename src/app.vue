@@ -1,7 +1,9 @@
 <template>
   <Navbar/>
   <div class="flex h-[87vh] relative px-4">
-    <NuxtPage/>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
   <Footer/>
 </template>
