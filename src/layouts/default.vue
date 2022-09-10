@@ -40,6 +40,7 @@ useHead({
     {name: "twitter:title", content: "Bytedefined"},
     {name: "twitter:description", content: "A Russian/Australian software developer/designer."},
     {httpEquiv: "Content-Security-Policy", content: "script-src 'none'"},
+    {name: "theme-color", content: "#0267d3"},
   ],
   style: [
     {fontFamily: "Inter, sans-serif"},

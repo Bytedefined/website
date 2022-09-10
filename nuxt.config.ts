@@ -1,10 +1,11 @@
 import {defineNuxtConfig} from "nuxt";
 
 export default defineNuxtConfig({
-    modules: [
+    srcDir: "src/",
+    buildModules: [
+        "@nuxtjs/pwa",
         "@nuxtjs/robots"
     ],
-    srcDir: "src/",
     build: {
         postcss: {
             postcssOptions: {
@@ -14,6 +15,21 @@ export default defineNuxtConfig({
                 },
             },
         },
+    },
+    pwa: {
+        icon: false,
+        manifest: {
+            name: "Bytedefined",
+            description: "A Russian/Australian software developer/designer.",
+            short_name: "Bytedefined",
+            background_color: "#0B0E11",
+            lang: "en",
+            useWebmanifestExtension: false,
+            theme_color: "#0267d3",
+            dir: "ltr",
+            display: "standalone",
+            start_url: "/"
+        }
     },
     css: [
         "@/assets/css/styles.css",
