@@ -2,7 +2,7 @@
   <div>
     <div class="flex justify-center mt-12 px-4">
       <div
-        class="flex max-w-7xl mb-4 w-full flex-col gap-1 border-zinc-700/50 border rounded-lg bg-polar-300 p-6"
+          class="flex max-w-7xl mb-4 w-full flex-col gap-1 border-zinc-700/50 border rounded-lg bg-polar-300 p-6"
       >
         <div>
           <div class="flex flex-col gap-2">
@@ -13,9 +13,10 @@
               These Terms of Service, which include the
               <NuxtLink to="/policy">
                 <span class="text-blue-500 hover:text-blue-600"
-                  >Privacy Policy</span
+                >Privacy Policy</span
                 ></NuxtLink
-              >, form a legally-binding agreement between Jet.pics (the "we",
+              >
+              , form a legally-binding agreement between Jet.pics (the "we",
               "us", "our") and you ("you", "your", "yourself", "user"). By
               accessing the Jet.pics website ("Service", "Website", "Site"), you
               agree that:
@@ -113,9 +114,9 @@
               without notice, and with and without reason. If you believe a user
               is violating these Terms of Service you can contact us at
               <a href="mailto:contact@jet.pics"
-                ><span class="text-blue-500 hover:text-blue-600"
-                  >this email address.</span
-                ></a
+              ><span class="text-blue-500 hover:text-blue-600"
+              >this email address.</span
+              ></a
               >
             </p>
 
@@ -158,9 +159,9 @@
                 If you believe someone is violating these Terms of Service,
                 please contact us at
                 <a href="mailto:contact@jet.pics"
-                  ><span class="text-blue-500 hover:text-blue-600"
-                    >this email address.</span
-                  ></a
+                ><span class="text-blue-500 hover:text-blue-600"
+                >this email address.</span
+                ></a
                 >
               </div>
             </div>
@@ -192,9 +193,9 @@
               We may terminate your Account on the Service at any time, with any
               reason via contacting us at
               <a href="mailto:contact@jet.pics"
-                ><span class="text-blue-500 hover:text-blue-600"
-                  >this email address.</span
-                ></a
+              ><span class="text-blue-500 hover:text-blue-600"
+              >this email address.</span
+              ></a
               >
               and requesting that your account deleted. You will be required to
               provide sufficient proof that the Account is yours for the request
@@ -248,9 +249,9 @@
               If you have any questions about our Privacy Policy or Terms of
               Service, please reach us at
               <a href="mailto:contact@jet.pics"
-                ><span class="text-blue-500 hover:text-blue-600"
-                  >this email address.</span
-                ></a
+              ><span class="text-blue-500 hover:text-blue-600"
+              >this email address.</span
+              ></a
               >
             </p>
           </div>

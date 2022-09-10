@@ -1,6 +1,9 @@
-import { defineNuxtConfig } from "nuxt";
+import {defineNuxtConfig} from "nuxt";
 
 export default defineNuxtConfig({
+    modules: [
+        "@nuxtjs/robots"
+    ],
     srcDir: "src/",
     build: {
         postcss: {
@@ -13,6 +16,10 @@ export default defineNuxtConfig({
         },
     },
     css: [
-        '@/assets/css/styles.css',
+        "@/assets/css/styles.css",
     ],
+    robots: {
+        UserAgent: "*",
+        Allow: "/",
+    }
 });

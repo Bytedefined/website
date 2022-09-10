@@ -2,7 +2,7 @@
   <div>
     <div class="flex justify-center mt-12 px-4">
       <div
-        class="flex max-w-7xl mb-4 w-full flex-col gap-1 border-zinc-700/50 border rounded-lg bg-polar-300 p-6"
+          class="flex max-w-7xl mb-4 w-full flex-col gap-1 border-zinc-700/50 border rounded-lg bg-polar-300 p-6"
       >
         <div>
           <div class="flex flex-col gap-2">
@@ -100,9 +100,9 @@
               believe they have published personal information on our Service,
               please contact us at
               <a href="mailto:contact@jet.pics"
-                ><span class="text-blue-500 hover:text-blue-600"
-                  >this email address.</span
-                ></a
+              ><span class="text-blue-500 hover:text-blue-600"
+              >this email address.</span
+              ></a
               >
             </p>
             <p class="text-sm text-gray-300">
@@ -131,9 +131,9 @@
               If you have any questions about our Privacy Policy or Terms of
               Service, please reach us at
               <a href="mailto:contact@jet.pics"
-                ><span class="text-blue-500 hover:text-blue-600"
-                  >this email address.</span
-                ></a
+              ><span class="text-blue-500 hover:text-blue-600"
+              >this email address.</span
+              ></a
               >
             </p>
           </div>

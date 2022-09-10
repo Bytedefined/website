@@ -1,17 +1,17 @@
 <template>
   <button
-    type="button"
-    class="hover:bg-blues-200 hover:bg-opacity-30 select-nonetext-sm duration-300 px-3 h-8 rounded-xl font-medium tracking-wide text-whites-200"
+      class="hover:bg-blues-200 hover:bg-opacity-30 select-nonetext-sm duration-300 px-3 h-8 rounded-xl font-medium tracking-wide text-whites-200"
+      type="button"
   >
     <slot>
       <span class="flex gap-1 items-center">
         <span v-html="rawHtml"> </span>
-        {{ text }}
+        {{text}}
       </span>
-      </slot>
+    </slot>
   </button>
 </template>
 
-<script setup lang="ts">
+<script lang="ts" setup>
 defineProps(["text", "rawHtml"])
 </script>

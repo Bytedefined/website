@@ -5,30 +5,30 @@
 html,
 main,
 body {
-  color: white;
-  background-color: #0B0E11;
+    color: white;
+    background-color: #0B0E11;
 }
 
 ::-webkit-scrollbar {
-  width: 8px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #232323;
+    background: #232323;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #252525;
+    background: #252525;
 }
 
 @media screen and (max-width: 768px) {
-  .hidden-mobile {
-    display: none !important;
-  }
+    .hidden-mobile {
+        display: none !important;
+    }
 }
 
 @media screen and (min-width: 1024px) {
-  .hidden-desktop {
-    display: none !important;
-  }
+    .hidden-desktop {
+        display: none !important;
+    }
 }
