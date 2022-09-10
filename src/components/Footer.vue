@@ -1,5 +1,5 @@
 <template>
-  <footer class="flex justify-center items-center gap-2">
+  <footer class="flex justify-center gap-2 pb-3">
     <p
         class="text-neutral-300 text-sm"
     >

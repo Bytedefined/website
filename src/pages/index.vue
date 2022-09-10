@@ -1,5 +1,5 @@
 <template>
-  <div class="p-2 m-auto max-w-5xl container flex flex-col">
+  <div class="p-2 m-auto max-w-5xl flex flex-col">
     <div class="mx-auto flex flex-col">
       <h1 class="text-4xl text-whites-100 font-semibold text-center">
         Hello, I'm <span class="text-blues-100">Bytedefined</span>

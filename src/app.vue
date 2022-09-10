@@ -1,11 +1,14 @@
 <template>
-  <Navbar/>
-  <div class="flex h-[87vh] relative px-4">
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
+  <div class="flex h-[100vh] max-h-[100vh] flex-col">
+    <Banner type="announcement" text="Hello, my personal website is still under-development, but still feel free to check in on it from time-to-time!" />
+    <Navbar/>
+    <main class="flex-1 px-4 mt-32">
+      <NuxtLayout>
+        <NuxtPage />
+      </NuxtLayout>
+    </main>
+    <Footer/>
   </div>
-  <Footer/>
 </template>
 
 <script lang="ts" setup>
@@ -22,7 +25,7 @@ useHead({
     },
     {
       rel: "stylesheet",
-      href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css",
+      href: "https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css",
       defer: true
     }
   ],
