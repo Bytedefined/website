@@ -20,6 +20,6 @@
   "dependencies": {
     "@headlessui/vue": "^1.7.3",
     "@nuxtjs/robots": "^2.5.0",
-    "tailwindcss": "^3.1.8"
+    "tailwindcss": "^3.2.0"
   }
 }
