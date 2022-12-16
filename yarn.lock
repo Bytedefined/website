@@ -275,10 +275,10 @@
   dependencies:
     mime "^3.0.0"
 
-"@headlessui/vue@^1.7.3":
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/@headlessui/vue/-/vue-1.7.3.tgz#116d13391552436ea1e9e88c69f0e9d7d2585c45"
-  integrity sha512-Is4iakKts9u9E0+jEZNzoJpBjwq2SamwEIoEl2RlyYSu6Zco536GsPXaQEfg/o7Eyc1GUUlcL+dJd4Rt7qyf7A==
+"@headlessui/vue@^1.7.7":
+  version "1.7.7"
+  resolved "https://registry.yarnpkg.com/@headlessui/vue/-/vue-1.7.7.tgz#db7f2ffde01b9d1f6e9adce53c5de73d73399c08"
+  integrity sha512-dkdNhJkxyT9rXW5fHx/MkKaM3U13P3duYuwoGTRmDGjE7xAsvcWOSJRJpw1AmCQTvjZF44bh2wSlySLaHW+WuQ==
 
 "@ioredis/commands@^1.1.1":
   version "1.2.0"
